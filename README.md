@@ -7,3 +7,4 @@
 引数（ペイロード）を持つミューテーション
 
 ## デプロイ先
+https://goofy-tesla-872b6d.netlify.app
