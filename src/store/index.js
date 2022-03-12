@@ -27,13 +27,16 @@ export default new Vuex.Store({
     booksCount(state) {
       return state.books.length
     },
-    getBookByPrice(state) {
+    getBooksByPrice(state) {
       return price => {
         return state.books.filter(book => book.price < price)
       }
     }
   },
   mutations: {
+    addBook(state, payload) {
+      state.books.push(payload.book)
+    }
   },
   actions: {
   },
